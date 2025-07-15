@@ -32,30 +32,6 @@ Testing: Unit tests for validating functionality in embedded environments.
 
 Docker Support: Containerized environment for consistent testing across hardware setups.
 
-Project Structure
-
-tesla_grok_integration/
-├── src/
-│   ├── tesla_grok_integration.py  # Main integration logic
-│   ├── iot_client.py             # IoT communication with xAI API
-│   ├── logger.py                 # Logging utilities
-├── config/
-│   ├── config.json               # API and connectivity settings
-├── logs/
-│   ├── tesla_grok.log            # Runtime logs
-├── tests/
-│   ├── test_integration.py       # Unit tests for embedded validation
-├── scripts/
-│   ├── setup_project.sh          # Bash script for project setup
-├── Dockerfile                    # Docker configuration for embedded tests
-├── requirements.txt              # Python dependencies
-├── README.md                     # This file
-
-Prerequisites
-
-
-
-
 
 Hardware: Embedded system with Python 3.10+ support (e.g., Raspberry Pi or AMD Ryzen-based infotainment system).
 
