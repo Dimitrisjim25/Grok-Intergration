@@ -1,0 +1,27 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.vscode/        # Visual Studio Code
+.idea/          # PyCharm/IntelliJ IDEA
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Project specific
+.venv/
+config/config.json
+logs/
