@@ -16,7 +16,7 @@ class TestTeslaGrokIntegration(unittest.TestCase):
     @patch('src.tesla_grok_integration.sr.Recognizer.recognize_google', autospec=True)
     @patch('src.tesla_grok_integration.sr.Recognizer.listen', autospec=True)
     def test_recognize_speech_success(self, mock_listen: MagicMock, mock_recognize_google: MagicMock) -> None:
-        mock_listen.return_value = sr.AudioData(b'', 44100, 2)
+        mock_listen.return_value = MagicMock(spec=sr.AudioData)
         mock_recognize_google.return_value = "test query"
         result = self.integration.recognize_speech()
         self.assertEqual(result, "test query")
