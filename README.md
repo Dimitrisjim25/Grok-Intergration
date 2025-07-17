@@ -1,4 +1,5 @@
 Tesla Grok Integration 
+
 This project is a proof-of-concept for integrating xAI's Grok AI into a Tesla-like infotainment system, enabling voice-driven AI interaction on embedded Linux hardware. It’s a work-in-progress showcasing potential for automotive AI applications.
 What It Does
 
